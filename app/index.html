@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat App</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- socket min io cdn library  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js" integrity="sha512-Xm9qbB6Pu06k3PUwPj785dyTl6oHxgsv9nHp7ej7nCpAqGZT3OZpsELuCYX05DdonFpTlBpXMOxjavIAIUwr0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script defer src="app.js"></script>
 </head>
 <body>
-    <form>
-        <input type="text" placeholder="Your message">
-        <button>Send</button>
-    </form>
-    <ul></ul>
+
+<form class="card">
+    <div id="header">
+      <h1>Chat Box</h1>
+    </div>
+        <input id="input" type="text" placeholder="Your message">
+        <button class="send">Send</button>
+
+
+      <ul></ul>
+</form>
 </body>
 </html>

@@ -1,28 +1,72 @@
 * {
-    font-size: 1.5rem;
-}
-
-body {
-    background-color: #333;
+    font-size: 1.3vw;
+    font-family:sans-serif;
+  }
+  
+  html {
+    --scrollbarBG: #fff;
+    --thumbBG: #90a4ae;
+  }
+  
+  body {
+    background: #ccc;
+  }
+  body .card {
+    height:90vw;
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10vw;
+    margin-top: 5vw;
+    box-shadow: 2vw 2vw 12vw 3vw #ccc;
+  }
+  body .card #header {
+    height: 50px;
+    background: #000;
+    padding: 0 0 1.5vw 1vw;
+  }
+  body .card #header h1 {
     color: #fff;
-    padding: 1rem;
-}
-
-form {
+    font-size: 2vw;
+    font-family: Sans-serif	;
+    padding: 1vw;
+  }
+ 
+  #input {
+    margin-top: 2vw;
+    margin-left: 3vw;
+    padding: 0 1.5vw;
     display: flex;
-    justify-content: center;
-    gap: 4px;
-}
-
-ul {
-    display: flex;
-    flex-flow: column;
-    justify-content: left;
-    list-style-type: none;
-}
-
-input,
-button {
-    border-radius: 10px;
-    padding: 10px;
-}
+    flex-direction: row;
+    align-items: flex-end;
+    height: 6vw;
+    width: 100%;
+  }
+  #input{
+    color: #000;
+    min-width: 0.5vw;
+    outline: none;
+    height: 3vw;
+    width: 60vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #000 0.1vw;
+  }
+  .send {
+    height: 2.5vw;
+    width: 5.5vw;
+    cursor: pointer;
+    flex: 0 0 auto;
+    margin-left: 3.5vw;
+    margin-right: 0vw;
+    margin-top: 2vw;
+    margin-bottom: 6vw;
+    padding: 0;
+    position: relative;
+    outline: none;
+    background-color: rgb(242, 144, 144);
+  }
+  
+  ul {
+    list-style-type:none;
+  }

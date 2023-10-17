@@ -5,5 +5,6 @@ This is Basic Chat  Application.
 ## Using: Express 
     - So that we run our backend and frontend in the same server.
     
+## Activity ditections
 
 ![Demo Image](demo.png)
